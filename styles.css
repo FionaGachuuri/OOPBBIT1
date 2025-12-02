@@ -1,0 +1,85 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #aaaaac 0%, #778792 100%);
+    min-height: 100vh;
+}
+
+h2, h3 {
+    color: rgb(35, 43, 78);
+}
+
+.form-group {
+    margin-bottom: 15px;
+    background: rgb(167, 175, 177);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #1658ba;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #abccf2;
+    border-radius: 4px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+select:focus {
+    outline: none;
+    border-color: #426fb3;
+}
+
+button {
+    background-color: #4a90e2;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #4a90e2;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 40px;
+    background: rgb(215, 212, 222);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #4a90e2;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #4a90e2;
+    color: rgb(232, 237, 242);
+}
+
+.inline-label {
+    display: inline;
+    font-weight: normal;
+}

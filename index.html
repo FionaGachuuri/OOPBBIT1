@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+    
+    <div class="form-group">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+
+    <div class="form-group">
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+    </div>
+
+    <div class="form-group">
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male" class="inline-label">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female" class="inline-label">Female</label>
+    </div>
+
+    <div class="form-group">
+        <label>Courses:</label>
+        <input type="checkbox" id="Computer Science" name="courses" value="Computer Science">
+        <label for="Computer Science" class="inline-label">Computer Science</label><br>
+        <input type="checkbox" id="Civil Engineering" name="courses" value="Civil Engineering">
+        <label for="Civil Engineering" class="inline-label">Civil Engineering</label><br>
+        <input type="checkbox" id="Commerce" name="courses" value="Commerce">
+        <label for="Commerce" class="inline-label">Commerce</label>
+    </div>
+
+    <div class="form-group">
+        <label for="Faculty">Faculty:</label>
+        <select id="Faculty" name="Faculty" required>
+            <option value="">Select a Faculty</option>
+            <option value="cs">Computer Science</option>
+            <option value="eng">Engineering</option>
+            <option value="bus">Business</option>
+        </select>
+    </div>
+
+    <button type="submit">Submit</button>
+
+    <h3>Registered Students</h3>
+    <table>
+        <tr>
+            <th colspan="2">Student Information</th>
+            <th>Faculty</th>
+            <th>Courses</th>
+        </tr>
+        <tr>
+            <td>Joseph K</td>
+            <td>joseph@email.com</td>
+            <td>Science and Tech</td>
+            <td>Computer Science</td>
+        </tr>
+        <tr>
+            <td>MaryJane Sat</td>
+            <td>maryjane@email.com</td>
+            <td>Engineering</td>
+            <td>Civil Engineering</td>
+        </tr>
+        <tr>
+            <td>Davis Johnson</td>
+            <td>davis@email.com</td>
+            <td>Business</td>
+            <td>Commerce</td>
+        </tr>
+    </table>
+</body>
+</html>
