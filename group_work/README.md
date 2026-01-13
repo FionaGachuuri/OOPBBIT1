@@ -8,7 +8,7 @@ Presentation Outline
 5. Labels, placeholders, basic validation
 6. Real-world use cases
 
-1. TABLE STRUCTURE (table, tr, td, th)
+TABLE STRUCTURE (table, tr, td, th)
 <table>
 This tag creates a table.
 Everything inside it represents rows and columns.
